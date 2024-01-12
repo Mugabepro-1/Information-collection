@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>collection</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="connect.php" method="post">
+        <div class="ti"><h2>Information Form</h2></div>
+        <div class="mini">
+          <p>First name</p>
+          <input type="text" class="first" name="firstName" />
+          <p>Last name</p>
+          <input type="text" class="last" name="lastName" />
+          <div class="form-group">
+            <p>Gender</p>
+            <label>
+              <input
+                type="radio"
+                class="input-radio"
+                name="gender"
+                value="m"
+              />Male</label
+            >
+            <label>
+              <input
+                type="radio"
+                class="input-radio"
+                name="gender"
+                value="f"
+              />Female</label
+            >
+
+            <label
+              ><input
+                type="radio"
+                class="input-radio"
+                name="gender"
+                value="o"
+              />
+              Others</label
+            >
+          </div>
+          <p>Email</p>
+          <input type="text" class="email" name="email" />
+          <p>Password</p>
+          <input type="password" class="pass" name="password" />
+          <p>Phone Number</p>
+          <input type="text" class="phone" name="number" />
+        </div>
+
+        <button type="submit" id="submit" class="but">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
